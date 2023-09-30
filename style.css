@@ -1,0 +1,93 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  height: 500px;
+  border: 5px solid white;
+  border-radius: 20px;
+  background-color: black;
+  margin-top: 50px;
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 70px;
+  }
+}
+
+/* .container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 70px;
+} */
+.container {
+  .space {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+}
+
+.herifler {
+  height: 30px;
+  width: 30%;
+  margin: 0 auto;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shans {
+  text-align: center;
+  width: 10%;
+  margin: 0 auto;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  /* button */
+  button {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+}
+
+.screenLose {
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
